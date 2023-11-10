@@ -1,0 +1,6 @@
+﻿Git
+Link para download do Git: https://git-scm.com/downloads
+
+O que é o Git?: O Git é um sistema de controle de revisão distribuído rápido, escalável com um conjunto de comandos extraordinariamente rico que fornece operações de alto nível e acesso total aos internos.
+
+O que é o Git Bash?: Git Bash é um terminal extendido para otimizar o uso do Git.
