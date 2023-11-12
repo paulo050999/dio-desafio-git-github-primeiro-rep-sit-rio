@@ -4,3 +4,57 @@ Link para download do Git: https://git-scm.com/downloads
 O que é o Git?: O Git é um sistema de controle de revisão distribuído rápido, escalável com um conjunto de comandos extraordinariamente rico que fornece operações de alto nível e acesso total aos internos.
 
 O que é o Git Bash?: Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Documentação do Git: https://git-scm.com/docs/git#_git_commands
+
+Alguns comandos importantes no Git: 
+
+- git config (ver as configurações);
+- Ctrl + l (limpar terminal);
+- git config –global user.name “Seu nome de usuário” (Configurar o nome do usuário, Definindo a forma de armazenamento  como global);
+- git config –global user.email "seu e-mail" (configurar o email, assim como o nome foi configurado anteriormente; 
+- git config user.name (conferir se a configuração de nome foi salva);
+- git config user.email (conferir se a configuração de email foi salva); 
+- git config init.defaultBranch (mostra o nome da Branch (Branch, em tradução literal, significa “ramo”. No mundo da programação, ela tem o mesmo significado: uma branch é uma ramificação do seu projeto.) padrão que está configurada no Git);
+- Seta pra cima (resgata o que foi digitado anteriormente); 
+- git config –global init.defaultBranch main (altera o nome da Branch padrão para “main” de forma golbal); 
+- git config –global –list (lista todas as configurações globais) 
+- git config –list (lista todas as configurações) 
+
+OBS: Consultar mais na documentação oficial, citada acima.
+
+Criando e clonando repositórios:
+
+mkdir + nome do diretório (cria diretório, *mkdir significa makedirectory) 
+
+cd + nome do diretório + / (vai para o diretório,*cd significa changedirectory) 
+
+git init (para transformar o diretório, pasta, em um repositório git, o comando deve ser inscrito dentro do diretório 
+
+cd .git (vai para a parte da pasta onde há um repositório git, lembrando que dentro dela o comando ls pode listar os arquivos). 
+
+Cat config (para ver o arquivo responsável pelas configurações do repositório) 
+
+Git clone “link” (sem as aspas) + nome da pasta (comando para caso você queira clonar um diretório e mudar o nome da pasta 
+
+Git remote –v (mostra os repositórios remotos conectados) 
+
+Git remote add origin + link (conecta a um repositório remoto) 
+
+Cd .. (volta uma pasta) 
+
+Git clone URL –branch featuer-1 –single-branch (exemplo do nome da brach) (comando utilizado para clonar um brach específica 
+
+Git status (verificar a área de preparação) 
+
+Touch READ.md (touch comando para criar arquivo, READ.md nome do arquivo, sendo md referente a markdown 
+
+GitHub
+Link de acesso ao Github: https://github.com/
+
+O que é o Github?: O Github é um serviço que hospeda sistemas de controle de versão para que haja assim uma cooperação mais fluida entre os desenvolvedores.
+
+Referências:
+
+https://github.com/elidianaandrade/dio-curso-git-github; 
+https://git-scm.com/docs/git#_git_commands.
